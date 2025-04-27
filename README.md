@@ -1,46 +1,81 @@
-# 📜 CS 370 Module Eight Journal – Christian Busca
+# 📜 CS 370 Portfolio – Christian Busca
 
-## Pirate Intelligent Agent Submission
-
-For this project, I submitted my completed Jupyter Notebook (`TreasureHuntGame_Busca.ipynb`) where I created a pirate intelligent agent capable of autonomously finding treasure in a maze environment. This project highlights how I applied reinforcement learning and deep Q-learning techniques to train an agent to solve a real-world problem.
+This repository contains my work for CS 370, covering multiple projects and assignments that showcase my growth in artificial intelligence, reinforcement learning, and neural network development.
 
 ---
 
-## Reflection
+## 📂 Projects and Assignments
 
-### 1. Briefly explain the work that you did on this project
-**What code were you given? What code did you create yourself?**
+### 📄 Assignment 1 – Introduction to AI Concepts
+**File:** `Busca_Christian_Assignment1.ipynb`
 
-For the pirate intelligent agent project, I was provided with two starter Python files: `TreasureMaze.py`, which defined the maze environment, and `GameExperience.py`, which managed experience replay. Using these, I wrote all of the Jupyter Notebook code myself — including the deep Q-learning model, the training loop, the epsilon-greedy exploration strategy, the reward structure, and the completion check. The agent reached a 100% win rate in fewer than 10 epochs.
-
-In earlier assignments, such as `Busca_Christian_Assignment1.ipynb` and `Busca_Christian_Assignment3_finalized.ipynb`, I explored supervised learning and foundational AI concepts. In the `Cartpole-Busca.ipynb` project, I trained a reinforcement learning agent to balance a pole, which helped prepare me for Project Two.
+In this assignment, I explored foundational concepts in artificial intelligence and machine learning. I analyzed early AI approaches and discussed how different intelligent systems operate. This work helped build the theoretical background needed for later projects.
 
 ---
 
-### 2. Connect your learning from throughout this course to the larger field of computer science
+### 📄 Assignment 3 – Machine Learning Project
+**File:** `Busca_Christian_Assignment3_finalized.ipynb`
 
-**What do computer scientists do and why does it matter?**  
-Computer scientists design intelligent systems, algorithms, and models that solve complex real-world problems. Their work impacts industries like healthcare, gaming, finance, and manufacturing. In this course, I learned how AI agents, through reinforcement learning, can autonomously learn to make decisions, which is a key part of modern computer science innovation.
-
-**How do I approach a problem as a computer scientist?**  
-I approach problems systematically: breaking down the problem into components, designing modular solutions, testing incrementally, and iterating based on results. For example, I developed the pirate agent's neural network separately from the training loop, ensuring each component worked before integrating them.
-
-**What are my ethical responsibilities to the end user and the organization?**  
-Computer scientists must ensure systems are fair, transparent, and safe. In reinforcement learning projects, it is important to monitor agents' learning to prevent unintended behaviors. I designed my pirate agent with ethical considerations in mind by aligning its reward structure carefully with intended outcomes.
+In this project, I applied supervised machine learning techniques to solve real-world data problems. I worked on data preprocessing, feature engineering, model training, and evaluation using standard classification models. This assignment provided valuable experience with practical machine learning pipelines.
 
 ---
 
-## 📎 Files Submitted
-- `TreasureHuntGame_Busca.ipynb` (Pirate Intelligent Agent Project)
+### 🎯 Module 5 Project – Cartpole Reinforcement Learning
+**File:** `Cartpole-Busca.ipynb`
+
+In this project, I built and trained a reinforcement learning agent to solve the Cartpole balancing problem. I implemented a deep Q-learning model that learned how to balance a pole through trial-and-error reward optimization. This project helped develop my skills in reinforcement learning and model convergence analysis.
+
+---
+
+### ⚓ Project Two Milestone – Pirate Agent Initial Setup
+**File:** `ProjectTwoMilestone_AgentNotebook.ipynb`
+
+This milestone marked the early planning and setup of the pirate intelligent agent project. I designed the initial deep Q-learning architecture, defined training strategies, and prepared the foundation for the final implementation.
+
+---
+
+### 🏴‍☠️ Project Two Final – Pirate Intelligent Agent
+**File:** `TreasureHuntGame_Busca.ipynb`
+
+For the final project, I implemented a deep Q-learning pirate agent capable of autonomously navigating a maze to find a treasure. I built the neural network, implemented the full training loop, managed exploration vs. exploitation, and validated the agent's performance through a completion check. The agent achieved a 100% win rate within 10 epochs, demonstrating strong learning and generalization.
+
+---
+
+## ✍️ Module Eight Journal Reflection
+
+### What work did I do myself?
+
+Throughout the course, I created all model-building, training, and evaluation code myself. Starter files provided environments or replay memory classes (for Cartpole and Pirate projects), but all reinforcement learning logic, deep learning model design, and training optimization were implemented independently.
+
+### How does this connect to computer science?
+
+Computer scientists design intelligent systems that solve complex real-world problems. Reinforcement learning is a vital area in AI that enables systems to learn behaviors through interaction, a major theme across my projects.
+
+### How do I approach problems as a computer scientist?
+
+I approach problems by breaking them down into smaller components, designing modular, testable solutions, and iterating through development cycles. This systematic approach was critical in the design and training of my agents.
+
+### What are my ethical responsibilities?
+
+It is essential to ensure AI systems are fair, transparent, and safe. My agents were carefully designed to align rewards with intended outcomes and avoid unintended or biased behaviors during learning.
+
+---
+
+## 📎 Files Included
+- `Busca_Christian_Assignment1.ipynb`
+- `Busca_Christian_Assignment3_finalized.ipynb`
+- `Cartpole-Busca.ipynb`
+- `ProjectTwoMilestone_AgentNotebook.ipynb`
+- `TreasureHuntGame_Busca.ipynb`
 
 ---
 
 ## 🚀 GitHub Repository Link
-https://github.com/synthesoul/CS370
+[https://github.com/synthesoul/CS370](https://github.com/synthesoul/CS370)
 
 ---
 
 ## ✅ Summary
 
-This project demonstrates my ability to apply deep Q-learning and reinforcement learning techniques to solve a real-world pathfinding problem, showcasing my growth in AI development, problem-solving, and ethical system design.
+This portfolio demonstrates my growth in artificial intelligence, machine learning, reinforcement learning, and ethical AI design throughout CS 370.
 
